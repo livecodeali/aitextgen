@@ -20,6 +20,7 @@ setup(
         "transformers>=4.5.1",
         "fire>=0.3.0",
         "pytorch-lightning>=1.7.0",
-        "torch>=1.6.0",
+        "torchvision==0.12.0",
+        "torch==1.9.0",
     ],
 )

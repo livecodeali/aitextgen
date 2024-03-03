@@ -706,7 +706,6 @@ class aitextgen:
 
         train_params = dict(
             accumulate_grad_batches=gradient_accumulation_steps,
-            gpus=n_gpu,
             max_steps=num_steps,
             gradient_clip_val=max_grad_norm,
             enable_checkpointing=False, #checkpoint_callback deprecated in pytorch_lighning v1.7
